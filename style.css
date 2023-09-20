@@ -1,0 +1,1308 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  width: 100%;
+}
+.header-p {
+  width: 100%;
+  height: 50px;
+  background: #252f3d;
+  display: flex;
+  align-items: center;
+}
+.container-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+.caja-header {
+  display: flex;
+  align-items: center;
+}
+
+.caja-header img {
+  margin-right: 10px;
+}
+
+.caja-header p {
+  color: white;
+  font-size: 12px;
+  font-family: "Manrope", sans-serif;
+}
+
+/*Header*/
+.header-c {
+  width: 100%;
+  height: 96px;
+  display: flex;
+  align-items: center;
+}
+.container-cuerpo {
+  width: 86%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.caja-cuerpo1 {
+  width: 192px;
+  height: 36px;
+}
+.caja-cuerpo1 img {
+  width: 100%;
+}
+.caja-cuerpo {
+  display: flex;
+}
+.caja-cuerpo .caja-frame {
+  margin-right: 10px;
+}
+
+/*Titulo*/
+.titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font: 48px;
+  font-family: "Manrope", sans-serif;
+  line-height: 48px;
+  position: relative;
+  bottom: 20px;
+}
+.titulo p {
+  position: relative;
+  bottom: 15px;
+}
+
+/*Pasos*/
+.pasos {
+  width: 100%;
+}
+.container-pasos {
+  width: 86%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.caja-pasos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.caja-pasos img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.caja-pasos div p {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+/*Seccion principal*/
+
+.seccion-principal {
+  width: 86%;
+  margin: auto;
+  margin-top: 25px;
+  background: #fafafa;
+}
+.container-principal {
+  width: 100%;
+  padding: 20px;
+}
+.cajas {
+  display: flex;
+  width: 100%;
+}
+.cajas div img {
+  width: 575px;
+  height: 591px;
+}
+.caja-container-img {
+  width: 90%;
+  padding: 20px;
+  margin-top: 15px;
+  background: white;
+}
+.caja-container-img .caja-imag {
+  display: flex;
+  align-items: center;
+  background: white;
+  margin-top: 30px;
+}
+.perfiles {
+  margin-right: 10px;
+}
+.caja-container-img .caja-imag .perfiles img {
+  width: 48px;
+  height: 48px;
+}
+.caja-container-img .caja-imag div div {
+  display: flex;
+  align-items: center;
+}
+.clasificacion {
+  margin-bottom: 5px;
+}
+.caja-container-img .caja-imag div p {
+  margin-right: 10px;
+  font-size: 14px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  line-height: 14px;
+}
+.caja-container-img .caja-imag div div img {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+.verify {
+  font-family: "Manrope", sans-serif;
+  color: #5bb59a;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.4px;
+}
+
+.descripcion-texto {
+  width: 100%;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 15px;
+}
+
+/*seccion-secundaria*/
+
+.seccion-secundaria {
+  width: 100%;
+}
+.texto-secundario {
+  width: 100%;
+}
+.texto-secundario p {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44.8px;
+}
+.texto-secundario .timeonly {
+  color: #2c7ef8;
+}
+.secundaria-img {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+}
+
+.secundaria-img div img {
+  width: 134px;
+  height: 134px;
+}
+.texto-descripcion-secundario {
+  width: 100%;
+  margin-left: 10px;
+}
+.texto-descripcion-secundario div {
+  width: 100%;
+  display: flex;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+.secundaria-img .texto-descripcion-secundario div div .precios {
+  display: flex;
+}
+#precios {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#costo1 {
+  margin-left: 70px;
+  color: #969696;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21.86px;
+  font-family: "Manrope", sans-serif;
+}
+#costo2 {
+  color: #2c7ef8;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+}
+.secundaria-img
+  .texto-descripcion-secundario
+  .clasificacion-img-secundaria
+  img {
+  width: 15px;
+  height: 15px;
+}
+#puntos {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+#puntos div img {
+  width: 16px;
+  height: 16px;
+}
+#stock {
+  position: relative;
+  right: 140px;
+}
+#descripcion-texto-secundario {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+}
+#check {
+  margin-top: 20px;
+}
+#check div {
+  display: flex;
+  margin-bottom: 5px;
+}
+#check div img {
+  width: 22px;
+  height: 22px;
+}
+#check div div {
+  margin-left: 15px;
+}
+#check div div p {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25.6px;
+}
+#porcentajes-container {
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  margin: auto;
+  background: #edf3fd;
+}
+#porcentaje-container-caja {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#porcentaje-container-caja img {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+#porcentaje-container-caja div {
+  margin-left: 10px;
+}
+#porcentaje-container-caja div p {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22.4px;
+}
+#colors {
+  color: #2c7ef8;
+}
+
+#btn-verde {
+  margin-top: 25px;
+  background: #59ae43;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  border-radius: 50px;
+}
+#btn-verde p {
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27.32px;
+}
+
+#compras {
+  margin-top: 15px;
+}
+#imagen-compras {
+  width: 500px;
+  height: 35px;
+}
+#advertencia {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#advertencia #texto-advertencia {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24.59px;
+  color: #f82c2c;
+  text-decoration: underline;
+}
+
+#imagen-certificado {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+#container-certificado-img {
+  margin-right: 15px;
+}
+#img-Ad {
+  width: 80px;
+  height: 80px;
+}
+#texto-advertencia p {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+}
+
+footer {
+  color: white;
+  width: 100%;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #252f3d;
+  font-family: "Manrope", sans-serif;
+}
+#copyright {
+  display: flex;
+  justify-content: space-around;
+}
+#copyright div {
+  margin-left: 15px;
+  margin-right: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+}
+#copyright div div {
+  margin-right: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+}
+#segure {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#segure div {
+  margin-left: 15px;
+}
+#segure div div {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+}
+
+@media screen and (max-width: 760px) {
+  #desactivar {
+    display: none;
+  }
+  .header-p {
+    width: 100%;
+    height: 50px;
+    background: #252f3d;
+    display: flex;
+    align-items: center;
+  }
+  .container-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+  }
+  .caja-header {
+    display: flex;
+    align-items: center;
+  }
+
+  .caja-header img {
+    margin-right: 10px;
+  }
+
+  .caja-header p {
+    color: white;
+    font-size: 12px;
+    font-family: "Manrope", sans-serif;
+  }
+
+  /*Header*/
+  .header-c {
+    width: 100%;
+    height: 96px;
+    display: flex;
+    align-items: center;
+  }
+  .container-cuerpo {
+    justify-content: space-between;
+  }
+  .caja-cuerpo1 {
+    width: 192px;
+    height: 36px;
+    margin-right: 40px;
+  }
+  .caja-cuerpo1 img {
+    width: 70%;
+  }
+  .caja-cuerpo {
+    display: flex;
+    margin-left: 15px;
+  }
+  .caja-cuerpo div img {
+    width: 80%;
+  }
+  .caja-cuerpo .caja-frame {
+    margin-right: 10px;
+    width: 80%;
+  }
+
+  /*Titulo*/
+  .titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-family: "Manrope", sans-serif;
+    line-height: 48px;
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+  }
+  .titulo p {
+    position: relative;
+    font-size: 14px;
+
+  }
+
+  /*Pasos*/
+  .pasos {
+    width: 100%;
+  }
+  .container-pasos {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .caja-pasos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .caja-pasos img {
+    width: 20px;
+    margin: auto;
+  }
+
+  .caja-pasos div p {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+  }
+
+  /*Seccion principal*/
+
+  .seccion-principal {
+    width: 100%;
+    margin: auto;
+    margin-top: 25px;
+    background: #fafafa;
+  }
+  .container-principal {
+    width: 100%;
+    padding: 20px;
+  }
+  .cajas {
+    display: flex;
+    width: 100%;
+  }
+  #img-anuncio {
+    display: none;
+  }
+  .caja-container-img {
+    display: none;
+  }
+  .caja-container-img .caja-imag {
+    display: flex;
+    align-items: center;
+    background: white;
+    margin-top: 30px;
+  }
+  .perfiles {
+    margin-right: 10px;
+  }
+  .caja-container-img .caja-imag .perfiles img {
+    width: 48px;
+    height: 48px;
+  }
+  .caja-container-img .caja-imag div div {
+    display: flex;
+    align-items: center;
+  }
+  .clasificacion {
+    margin-bottom: 5px;
+  }
+  .caja-container-img .caja-imag div p {
+    margin-right: 10px;
+    font-size: 14px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    line-height: 14px;
+  }
+  .caja-container-img .caja-imag div div img {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+  }
+  .verify {
+    font-family: "Manrope", sans-serif;
+    color: #5bb59a;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+  }
+
+  .descripcion-texto {
+    width: 100%;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 15px;
+  }
+
+  /*seccion-secundaria*/
+
+  .seccion-secundaria {
+    width: 100%;
+  }
+  .texto-secundario {
+    width: 100%;
+  }
+  .texto-secundario p {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33.8px;
+    text-align: center;
+  }
+  .texto-secundario .timeonly {
+    color: #2c7ef8;
+  }
+  .secundaria-img {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+  }
+  #clarifion {
+    font-size: 14px;
+  }
+  .secundaria-img div img {
+    width: 80px;
+    height: 80px;
+  }
+  .texto-descripcion-secundario {
+    width: 100%;
+    margin-left: 10px;
+  }
+  .texto-descripcion-secundario div {
+    width: 100%;
+    display: flex;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .secundaria-img .texto-descripcion-secundario div div .precios {
+    display: flex;
+  }
+  #precios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #costo1 {
+    margin-left: 70px;
+    color: #969696;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 21.86px;
+    font-family: "Manrope", sans-serif;
+    position: relative;
+    right: 15px;
+  }
+  #costo2 {
+    color: #2c7ef8;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+   
+  }
+
+  .secundaria-img
+    .texto-descripcion-secundario
+    .clasificacion-img-secundaria
+    img {
+    width: 15px;
+    height: 15px;
+  }
+  #puntos {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  #puntos div img {
+    width: 16px;
+    height: 16px;
+  }
+  #stock {
+    position: relative;
+    right: 85px;
+  }
+  #stock p {
+    font-size: 12px;
+  }
+  #descripcion-texto-secundario {
+    width: 95%;
+    position: absolute;
+    right: -12px;
+  }
+  #descripcion-texto-secundario p {
+    width: 100%;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22.4px;
+    position: relative;
+    right: 25px;
+    top: 15px;
+    bottom: 25px;
+    text-align: center;
+  }
+  #check {
+    margin-top: 70px;
+  }
+  #check div {
+    display: flex;
+    margin-bottom: 5px;
+  }
+  #check div img {
+    width: 12px;
+    height: 8px;
+  }
+  #check div div {
+    margin-left: 15px;
+  }
+  #check div div p {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25.6px;
+  }
+  #porcentajes-container {
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    margin: auto;
+    background: #edf3fd;
+  }
+  #porcentaje-container-caja {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #porcentaje-container-caja img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+  }
+  #porcentaje-container-caja div {
+    margin-left: 10px;
+  }
+  #porcentaje-container-caja div p {
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22.4px;
+  }
+  #colors {
+    color: #2c7ef8;
+  }
+
+  #btn-verde {
+    margin-top: 25px;
+    background: #59ae43;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 50px;
+  }
+  #btn-verde p {
+    color: white;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27.32px;
+  }
+  #compras {
+    margin-top: 15px;
+  }
+  #imagen-compras {
+    width: 100%;
+    height: 25px;
+  }
+  #advertencia {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #advertencia #texto-advertencia {
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24.59px;
+    color: #f82c2c;
+    text-decoration: underline;
+  }
+
+  #imagen-certificado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+  }
+  #container-certificado-img {
+    margin-right: 15px;
+  }
+  #img-Ad {
+    width: 48px;
+    height: 48px;
+  }
+  #texto-advertencia p {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22.4px;
+  }
+
+  footer {
+    color: white;
+    width: 100%;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background: #252f3d;
+    font-family: "Manrope", sans-serif;
+  }
+  #copyright {
+    display: flex;
+    justify-content: space-around;
+  }
+  #copyright div {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22.4px;
+  }
+  #copyright div div {
+    margin-right: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22.4px;
+  }
+  #segure {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #segure div {
+    margin-left: 10px;
+  }
+  #segure div img{
+    width: 13px;
+    height: 13px;
+  }
+  #segure div div {
+    font-weight: 400;
+    font-size: 12px !important;
+  }
+}
+@media screen and (max-width: 360px) {
+  #desactivar {
+    display: none;
+  }
+  .header-p {
+    width: 100%;
+    height: 50px;
+    background: #252f3d;
+    display: flex;
+    align-items: center;
+  }
+  .container-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+  }
+  .caja-header {
+    display: flex;
+    align-items: center;
+  }
+
+  .caja-header img {
+    margin-right: 10px;
+  }
+
+  .caja-header p {
+    color: white;
+    font-size: 12px;
+    font-family: "Manrope", sans-serif;
+  }
+
+  /*Header*/
+  .header-c {
+    width: 100%;
+    height: 96px;
+    display: flex;
+    align-items: center;
+  }
+  .container-cuerpo {
+    justify-content: space-evenly;
+  }
+  .caja-cuerpo1 {
+    width: 192px;
+    height: 36px;
+  }
+  .caja-cuerpo1 img {
+    width: 70%;
+  }
+  .caja-cuerpo {
+    display: flex;
+  }
+  .caja-cuerpo div img {
+    width: 80%;
+  }
+  .caja-cuerpo .caja-frame {
+    margin-right: 10px;
+    width: 80%;
+  }
+
+  /*Titulo*/
+  .titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-family: "Manrope", sans-serif;
+    line-height: 48px;
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+  }
+  .titulo p {
+    position: relative;
+    font-size: 14px;
+
+  }
+
+  /*Pasos*/
+  .pasos {
+    width: 100%;
+  }
+  .container-pasos {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .caja-pasos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .caja-pasos img {
+    width: 20px;
+    margin: auto;
+  }
+
+  .caja-pasos div p {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+  }
+
+  /*Seccion principal*/
+
+  .seccion-principal {
+    width: 100%;
+    margin: auto;
+    margin-top: 25px;
+    background: #fafafa;
+  }
+  .container-principal {
+    width: 100%;
+    padding: 20px;
+  }
+  .cajas {
+    display: flex;
+    width: 100%;
+  }
+  #img-anuncio {
+    display: none;
+  }
+  .caja-container-img {
+    display: none;
+  }
+  .caja-container-img .caja-imag {
+    display: flex;
+    align-items: center;
+    background: white;
+    margin-top: 30px;
+  }
+  .perfiles {
+    margin-right: 10px;
+  }
+  .caja-container-img .caja-imag .perfiles img {
+    width: 48px;
+    height: 48px;
+  }
+  .caja-container-img .caja-imag div div {
+    display: flex;
+    align-items: center;
+  }
+  .clasificacion {
+    margin-bottom: 5px;
+  }
+  .caja-container-img .caja-imag div p {
+    margin-right: 10px;
+    font-size: 14px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    line-height: 14px;
+  }
+  .caja-container-img .caja-imag div div img {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+  }
+  .verify {
+    font-family: "Manrope", sans-serif;
+    color: #5bb59a;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+  }
+
+  .descripcion-texto {
+    width: 100%;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 15px;
+  }
+
+  /*seccion-secundaria*/
+
+  .seccion-secundaria {
+    width: 100%;
+  }
+  .texto-secundario {
+    width: 100%;
+  }
+  .texto-secundario p {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33.8px;
+    text-align: center;
+  }
+  .texto-secundario .timeonly {
+    color: #2c7ef8;
+  }
+  .secundaria-img {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+  }
+  #clarifion {
+    font-size: 14px;
+  }
+  .secundaria-img div img {
+    width: 80px;
+    height: 80px;
+  }
+  .texto-descripcion-secundario {
+    width: 100%;
+    margin-left: 10px;
+  }
+  .texto-descripcion-secundario div {
+    width: 100%;
+    display: flex;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .secundaria-img .texto-descripcion-secundario div div .precios {
+    display: flex;
+  }
+  #precios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #costo1 {
+    margin-left: 70px;
+    color: #969696;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 21.86px;
+    font-family: "Manrope", sans-serif;
+    position: relative;
+    right: 15px;
+  }
+  #costo2 {
+    color: #2c7ef8;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+   
+  }
+
+  .secundaria-img
+    .texto-descripcion-secundario
+    .clasificacion-img-secundaria
+    img {
+    width: 15px;
+    height: 15px;
+  }
+  #puntos {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  #puntos div img {
+    width: 16px;
+    height: 16px;
+  }
+  #stock {
+    position: relative;
+    right: 85px;
+  }
+  #stock p {
+    font-size: 12px;
+  }
+  #descripcion-texto-secundario {
+    width: 95%;
+    position: absolute;
+    right: -12px;
+  }
+  #descripcion-texto-secundario p {
+    width: 100%;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22.4px;
+    position: relative;
+    right: 25px;
+    top: 15px;
+    bottom: 25px;
+    text-align: center;
+  }
+  #check {
+    margin-top: 70px;
+  }
+  #check div {
+    display: flex;
+    margin-bottom: 5px;
+  }
+  #check div img {
+    width: 12px;
+    height: 8px;
+  }
+  #check div div {
+    margin-left: 15px;
+  }
+  #check div div p {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25.6px;
+  }
+  #porcentajes-container {
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    margin: auto;
+    background: #edf3fd;
+  }
+  #porcentaje-container-caja {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #porcentaje-container-caja img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+  }
+  #porcentaje-container-caja div {
+    margin-left: 10px;
+  }
+  #porcentaje-container-caja div p {
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22.4px;
+  }
+  #colors {
+    color: #2c7ef8;
+  }
+
+  #btn-verde {
+    margin-top: 25px;
+    background: #59ae43;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 50px;
+  }
+  #btn-verde p {
+    color: white;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27.32px;
+  }
+
+  #compras {
+    margin-top: 15px;
+  }
+  #imagen-compras {
+    width: 100%;
+    height: 20px;
+  }
+  #advertencia {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #advertencia #texto-advertencia {
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24.59px;
+    color: #f82c2c;
+    text-decoration: underline;
+  }
+
+  #imagen-certificado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+  }
+  #container-certificado-img {
+    margin-right: 15px;
+  }
+  #img-Ad {
+    width: 48px;
+    height: 48px;
+  }
+  #texto-advertencia p {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22.4px;
+  }
+
+  footer {
+    color: white;
+    width: 100%;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background: #252f3d;
+    font-family: "Manrope", sans-serif;
+  }
+  #copyright {
+    display: flex;
+    justify-content: space-around;
+  }
+  #copyright div {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22.4px;
+  }
+  #copyright div div {
+    margin-right: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22.4px;
+  }
+  #segure {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #segure div {
+    margin-left: 10px;
+  }
+  #segure div img{
+    width: 13px;
+    height: 13px;
+  }
+  #segure div div {
+    font-weight: 400;
+    font-size: 12px !important;
+  }
+}
